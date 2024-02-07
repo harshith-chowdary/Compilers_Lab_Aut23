@@ -1,0 +1,24 @@
+To run the tests run the following command:
+    `make test`
+
+To clean the object files and compiled binaries run:
+    `make clean`
+
+To clean the intermediate files only run:
+    `make clean_intermediate`
+
+To clean the output files only run:
+    `make clean_output`
+
+Individual test binaries can be run as ./test<num> after running `make test`
+
+Assembly files are present in the `asms` folder
+TACs are present in `tacs` folder
+(above `asms` and `tacs` folders are not removed by `make clean` command)
+
+To get yyinfo logs add a flag in Line 11 of makefile:
+    -D_DEBUG_H
+
+    (or)
+
+    comment line 14 and uncomment line 15

@@ -1,0 +1,448 @@
+============================================================================================================================================
+Table Name: global		 Parent Table Name: None
+============================================================================================================================================
+Name                Type                                    Category            Initial Value       Offset              Size                Child               
+
+charG1              char                                    global              'b'                 0                   1                   NULL                
+charG2              char                                    global                                  1                   1                   NULL                
+fltG1               float                                   global              55.55               2                   8                   NULL                
+fltG2               float                                   global                                  10                  8                   NULL                
+fptrG1              ptr(float)                              global                                  18                  8                   NULL                
+fptrG2              ptr(float)                              global                                  26                  8                   NULL                
+main                int                                     function                                34                  4                   main                
+numG1               int                                     global              20                  38                  4                   NULL                
+numG2               int                                     global                                  42                  4                   NULL                
+printFlt            int                                     function                                46                  4                   printFlt            
+printInt            int                                     function                                50                  4                   printInt            
+printStr            int                                     function                                54                  4                   printStr            
+ptrG1               ptr(int)                                global                                  58                  8                   NULL                
+ptrG2               ptr(int)                                global                                  66                  8                   NULL                
+readFlt             int                                     function                                74                  4                   readFlt             
+readInt             int                                     function                                78                  4                   readInt             
+strG1               ptr(char)                               global              "Hello World, I am a global string."82                  8                   NULL                
+strG2               ptr(char)                               global                                  90                  8                   NULL                
+t0                  int                                     temporary           20                  98                  4                   NULL                
+t1                  char                                    temporary           'b'                 102                 1                   NULL                
+t2                  float                                   temporary           55.55               103                 8                   NULL                
+t3                  ptr(char)                               temporary           "Hello World, I am a global string."111                 8                   NULL                
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+============================================================================================================================================
+Table Name: main		 Parent Table Name: global
+============================================================================================================================================
+Name                Type                                    Category            Initial Value       Offset              Size                Child               
+
+charL1              char                                    local               'a'                 0                   1                   NULL                
+charL2              char                                    local                                   1                   1                   NULL                
+fltL1               float                                   local               66.99               2                   8                   NULL                
+fltL2               float                                   local                                   10                  8                   NULL                
+fptrL1              ptr(float)                              local                                   18                  8                   NULL                
+fptrL2              ptr(float)                              local                                   26                  8                   NULL                
+numL1               int                                     local               5                   34                  4                   NULL                
+numL2               int                                     local                                   38                  4                   NULL                
+ptrL1               ptr(int)                                local                                   42                  8                   NULL                
+ptrL2               ptr(int)                                local                                   50                  8                   NULL                
+return              int                                     local                                   58                  4                   NULL                
+strL1               ptr(char)                               local               "Hello World, I am a local string."62                  8                   NULL                
+strL2               ptr(char)                               local                                   70                  8                   NULL                
+t10                 ptr(char)                               temporary           "Hello World, I am a local string."78                  8                   NULL                
+t100                ptr(char)                               temporary           ", ptrG2 (adress, truncated to first 32 bits only) = "86                  8                   NULL                
+t101                int                                     temporary                               94                  4                   NULL                
+t102                int                                     temporary                               98                  4                   NULL                
+t103                ptr(char)                               temporary           ", strG2 = "        102                 8                   NULL                
+t104                int                                     temporary                               110                 4                   NULL                
+t105                int                                     temporary                               114                 4                   NULL                
+t106                ptr(char)                               temporary           "\nSUCCESS: Global variables assigned to global variables."118                 8                   NULL                
+t107                int                                     temporary                               126                 4                   NULL                
+t108                ptr(char)                               temporary           "\nFAILURE: Global variables not assigned to global variables."130                 8                   NULL                
+t109                int                                     temporary                               138                 4                   NULL                
+t11                 ptr(char)                               temporary           "\nLocal variables: "142                 8                   NULL                
+t110                ptr(char)                               temporary           "\n\n"              150                 8                   NULL                
+t111                int                                     temporary                               158                 4                   NULL                
+t112                int                                     temporary           0                   162                 4                   NULL                
+t12                 int                                     temporary                               166                 4                   NULL                
+t13                 ptr(char)                               temporary           "\nnumL1 = "        170                 8                   NULL                
+t14                 int                                     temporary                               178                 4                   NULL                
+t15                 int                                     temporary                               182                 4                   NULL                
+t16                 ptr(char)                               temporary           ", charL1 (ascii value) = "186                 8                   NULL                
+t17                 int                                     temporary                               194                 4                   NULL                
+t18                 int                                     temporary                               198                 4                   NULL                
+t19                 ptr(char)                               temporary           ", fltL1 = "        202                 8                   NULL                
+t20                 int                                     temporary                               210                 4                   NULL                
+t21                 int                                     temporary                               214                 4                   NULL                
+t22                 ptr(char)                               temporary           ", ptrL1 (adress, truncated to first 32 bits only) = "218                 8                   NULL                
+t23                 int                                     temporary                               226                 4                   NULL                
+t24                 int                                     temporary                               230                 4                   NULL                
+t25                 ptr(char)                               temporary           ", strL1 = "        234                 8                   NULL                
+t26                 int                                     temporary                               242                 4                   NULL                
+t27                 int                                     temporary                               246                 4                   NULL                
+t28                 ptr(int)                                temporary                               250                 8                   NULL                
+t29                 ptr(float)                              temporary                               258                 8                   NULL                
+t30                 ptr(char)                               temporary           "\nGlobal variables: "266                 8                   NULL                
+t31                 int                                     temporary                               274                 4                   NULL                
+t32                 ptr(char)                               temporary           "\nnumG1 = "        278                 8                   NULL                
+t33                 int                                     temporary                               286                 4                   NULL                
+t34                 int                                     temporary                               290                 4                   NULL                
+t35                 ptr(char)                               temporary           ", charG1 (ascii value) = "294                 8                   NULL                
+t36                 int                                     temporary                               302                 4                   NULL                
+t37                 int                                     temporary                               306                 4                   NULL                
+t38                 ptr(char)                               temporary           ", ptrG1 (adress, truncated to first 32 bits only) = "310                 8                   NULL                
+t39                 int                                     temporary                               318                 4                   NULL                
+t4                  ptr(char)                               temporary           "\n#### TEST 4 (Global variables, pointers and addresses) ####"322                 8                   NULL                
+t40                 int                                     temporary                               330                 4                   NULL                
+t41                 ptr(char)                               temporary           ", fptrG1 (adress, truncated to first 32 bits only) = "334                 8                   NULL                
+t42                 int                                     temporary                               342                 4                   NULL                
+t43                 int                                     temporary                               346                 4                   NULL                
+t44                 ptr(char)                               temporary           ", strG1 = "        350                 8                   NULL                
+t45                 int                                     temporary                               358                 4                   NULL                
+t46                 int                                     temporary                               362                 4                   NULL                
+t47                 ptr(char)                               temporary           "\n"                366                 8                   NULL                
+t48                 int                                     temporary                               374                 4                   NULL                
+t49                 ptr(char)                               temporary           "\nAssigning locals to globals: "378                 8                   NULL                
+t5                  int                                     temporary                               386                 4                   NULL                
+t50                 int                                     temporary                               390                 4                   NULL                
+t51                 ptr(char)                               temporary           "\nnumG2 = "        394                 8                   NULL                
+t52                 int                                     temporary                               402                 4                   NULL                
+t53                 int                                     temporary                               406                 4                   NULL                
+t54                 ptr(char)                               temporary           ", charG2 (ascii value) = "410                 8                   NULL                
+t55                 int                                     temporary                               418                 4                   NULL                
+t56                 int                                     temporary                               422                 4                   NULL                
+t57                 ptr(char)                               temporary           ", fltG2 = "        426                 8                   NULL                
+t58                 int                                     temporary                               434                 4                   NULL                
+t59                 int                                     temporary                               438                 4                   NULL                
+t6                  int                                     temporary           5                   442                 4                   NULL                
+t60                 ptr(char)                               temporary           ", ptrG2 (adress, truncated to first 32 bits only) = "446                 8                   NULL                
+t61                 int                                     temporary                               454                 4                   NULL                
+t62                 int                                     temporary                               458                 4                   NULL                
+t63                 ptr(char)                               temporary           ", strG2 = "        462                 8                   NULL                
+t64                 int                                     temporary                               470                 4                   NULL                
+t65                 int                                     temporary                               474                 4                   NULL                
+t66                 ptr(char)                               temporary           "\nSUCCESS: Local variables assigned to global variables."478                 8                   NULL                
+t67                 int                                     temporary                               486                 4                   NULL                
+t68                 ptr(char)                               temporary           "\nFAILURE: Local variables not assigned to global variables."490                 8                   NULL                
+t69                 int                                     temporary                               498                 4                   NULL                
+t7                  char                                    temporary           'a'                 502                 1                   NULL                
+t70                 ptr(char)                               temporary           "\n"                503                 8                   NULL                
+t71                 int                                     temporary                               511                 4                   NULL                
+t72                 ptr(char)                               temporary           "\nAssigning globals to locals: "515                 8                   NULL                
+t73                 int                                     temporary                               523                 4                   NULL                
+t74                 ptr(char)                               temporary           "\nnumL2 = "        527                 8                   NULL                
+t75                 int                                     temporary                               535                 4                   NULL                
+t76                 int                                     temporary                               539                 4                   NULL                
+t77                 ptr(char)                               temporary           ", charL2 (ascii value) = "543                 8                   NULL                
+t78                 int                                     temporary                               551                 4                   NULL                
+t79                 int                                     temporary                               555                 4                   NULL                
+t8                  float                                   temporary           66.99               559                 8                   NULL                
+t80                 ptr(char)                               temporary           ", ptrL2 (adress, truncated to first 32 bits only) = "567                 8                   NULL                
+t81                 int                                     temporary                               575                 4                   NULL                
+t82                 int                                     temporary                               579                 4                   NULL                
+t83                 ptr(char)                               temporary           ", strL2 = "        583                 8                   NULL                
+t84                 int                                     temporary                               591                 4                   NULL                
+t85                 int                                     temporary                               595                 4                   NULL                
+t86                 ptr(char)                               temporary           "\nSUCCESS: Global variables assigned to local variables."599                 8                   NULL                
+t87                 int                                     temporary                               607                 4                   NULL                
+t88                 ptr(char)                               temporary           "\nFAILURE: Global variables not assigned to local variables."611                 8                   NULL                
+t89                 int                                     temporary                               619                 4                   NULL                
+t9                  ptr(int)                                temporary                               623                 8                   NULL                
+t90                 ptr(char)                               temporary           "\n"                631                 8                   NULL                
+t91                 int                                     temporary                               639                 4                   NULL                
+t92                 ptr(char)                               temporary           "\nAssigning globals to globals: "643                 8                   NULL                
+t93                 int                                     temporary                               651                 4                   NULL                
+t94                 ptr(char)                               temporary           "\nnumG2 = "        655                 8                   NULL                
+t95                 int                                     temporary                               663                 4                   NULL                
+t96                 int                                     temporary                               667                 4                   NULL                
+t97                 ptr(char)                               temporary           ", charG2 (ascii value) = "671                 8                   NULL                
+t98                 int                                     temporary                               679                 4                   NULL                
+t99                 int                                     temporary                               683                 4                   NULL                
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+============================================================================================================================================
+Table Name: printFlt		 Parent Table Name: global
+============================================================================================================================================
+Name                Type                                    Category            Initial Value       Offset              Size                Child               
+
+f                   float                                   parameter                               0                   8                   NULL                
+return              int                                     local                                   8                   4                   NULL                
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+============================================================================================================================================
+Table Name: printInt		 Parent Table Name: global
+============================================================================================================================================
+Name                Type                                    Category            Initial Value       Offset              Size                Child               
+
+n                   int                                     parameter                               0                   4                   NULL                
+return              int                                     local                                   4                   4                   NULL                
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+============================================================================================================================================
+Table Name: printStr		 Parent Table Name: global
+============================================================================================================================================
+Name                Type                                    Category            Initial Value       Offset              Size                Child               
+
+return              int                                     local                                   0                   4                   NULL                
+s                   ptr(char)                               parameter                               4                   8                   NULL                
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+============================================================================================================================================
+Table Name: readFlt		 Parent Table Name: global
+============================================================================================================================================
+Name                Type                                    Category            Initial Value       Offset              Size                Child               
+
+eP                  ptr(float)                              parameter                               0                   8                   NULL                
+return              int                                     local                                   8                   4                   NULL                
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+============================================================================================================================================
+Table Name: readInt		 Parent Table Name: global
+============================================================================================================================================
+Name                Type                                    Category            Initial Value       Offset              Size                Child               
+
+eP                  ptr(int)                                parameter                               0                   8                   NULL                
+return              int                                     local                                   8                   4                   NULL                
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+1   : 	t0 = 20
+2   : 	numG1 = t0
+3   : 	t1 = 'b'
+4   : 	charG1 = t1
+5   : 	t2 = 55.55
+6   : 	fltG1 = t2
+7   : 	t3 = "Hello World, I am a global string."
+8   : 	strG1 = t3
+9   : Function start: main
+10  : 	t4 = "\n#### TEST 4 (Global variables, pointers and addresses) ####"
+11  : 	param t4
+12  : 	t5 = call printStr, 1
+13  : 	t6 = 5
+14  : 	numL1 = t6
+15  : 	t7 = 'a'
+16  : 	charL1 = t7
+17  : 	t8 = 66.99
+18  : 	fltL1 = t8
+19  : 	t9 = &numL1
+20  : 	ptrL1 = t9
+21  : 	t10 = "Hello World, I am a local string."
+22  : 	strL1 = t10
+23  : 	t11 = "\nLocal variables: "
+24  : 	param t11
+25  : 	t12 = call printStr, 1
+26  : 	t13 = "\nnumL1 = "
+27  : 	param t13
+28  : 	t14 = call printStr, 1
+29  : 	param numL1
+30  : 	t15 = call printInt, 1
+31  : 	t16 = ", charL1 (ascii value) = "
+32  : 	param t16
+33  : 	t17 = call printStr, 1
+34  : 	param charL1
+35  : 	t18 = call printInt, 1
+36  : 	t19 = ", fltL1 = "
+37  : 	param t19
+38  : 	t20 = call printStr, 1
+39  : 	param fltL1
+40  : 	t21 = call printFlt, 1
+41  : 	t22 = ", ptrL1 (adress, truncated to first 32 bits only) = "
+42  : 	param t22
+43  : 	t23 = call printStr, 1
+44  : 	param ptrL1
+45  : 	t24 = call printInt, 1
+46  : 	t25 = ", strL1 = "
+47  : 	param t25
+48  : 	t26 = call printStr, 1
+49  : 	param strL1
+50  : 	t27 = call printStr, 1
+51  : 	t28 = &numG1
+52  : 	ptrG1 = t28
+53  : 	t29 = &fltG1
+54  : 	fptrG1 = t29
+55  : 	t30 = "\nGlobal variables: "
+56  : 	param t30
+57  : 	t31 = call printStr, 1
+58  : 	t32 = "\nnumG1 = "
+59  : 	param t32
+60  : 	t33 = call printStr, 1
+61  : 	param numG1
+62  : 	t34 = call printInt, 1
+63  : 	t35 = ", charG1 (ascii value) = "
+64  : 	param t35
+65  : 	t36 = call printStr, 1
+66  : 	param charG1
+67  : 	t37 = call printInt, 1
+68  : 	t38 = ", ptrG1 (adress, truncated to first 32 bits only) = "
+69  : 	param t38
+70  : 	t39 = call printStr, 1
+71  : 	param ptrG1
+72  : 	t40 = call printInt, 1
+73  : 	t41 = ", fptrG1 (adress, truncated to first 32 bits only) = "
+74  : 	param t41
+75  : 	t42 = call printStr, 1
+76  : 	param fptrG1
+77  : 	t43 = call printFlt, 1
+78  : 	t44 = ", strG1 = "
+79  : 	param t44
+80  : 	t45 = call printStr, 1
+81  : 	param strG1
+82  : 	t46 = call printStr, 1
+83  : 	t47 = "\n"
+84  : 	param t47
+85  : 	t48 = call printStr, 1
+86  : 	t49 = "\nAssigning locals to globals: "
+87  : 	param t49
+88  : 	t50 = call printStr, 1
+89  : 	numG2 = numL1
+90  : 	charG2 = charL1
+91  : 	fltG2 = fltL1
+92  : 	ptrG2 = ptrL1
+93  : 	strG2 = strL1
+94  : 	t51 = "\nnumG2 = "
+95  : 	param t51
+96  : 	t52 = call printStr, 1
+97  : 	param numG2
+98  : 	t53 = call printInt, 1
+99  : 	t54 = ", charG2 (ascii value) = "
+100 : 	param t54
+101 : 	t55 = call printStr, 1
+102 : 	param charG2
+103 : 	t56 = call printInt, 1
+104 : 	t57 = ", fltG2 = "
+105 : 	param t57
+106 : 	t58 = call printStr, 1
+107 : 	param fltG2
+108 : 	t59 = call printFlt, 1
+109 : 	t60 = ", ptrG2 (adress, truncated to first 32 bits only) = "
+110 : 	param t60
+111 : 	t61 = call printStr, 1
+112 : 	param ptrG2
+113 : 	t62 = call printInt, 1
+114 : 	t63 = ", strG2 = "
+115 : 	param t63
+116 : 	t64 = call printStr, 1
+117 : 	param strG2
+118 : 	t65 = call printStr, 1
+119 : 	if numG2 == numL1 goto 121
+120 : 	goto 133
+121 : 	if charG2 == charL1 goto 123
+122 : 	goto 133
+123 : 	if fltG2 == fltL1 goto 125
+124 : 	goto 133
+125 : 	if ptrG2 == ptrL1 goto 127
+126 : 	goto 133
+127 : 	if strG2 == strL1 goto 129
+128 : 	goto 133
+129 : 	t66 = "\nSUCCESS: Local variables assigned to global variables."
+130 : 	param t66
+131 : 	t67 = call printStr, 1
+132 : 	goto 136
+133 : 	t68 = "\nFAILURE: Local variables not assigned to global variables."
+134 : 	param t68
+135 : 	t69 = call printStr, 1
+136 : 	t70 = "\n"
+137 : 	param t70
+138 : 	t71 = call printStr, 1
+139 : 	t72 = "\nAssigning globals to locals: "
+140 : 	param t72
+141 : 	t73 = call printStr, 1
+142 : 	numL2 = numG1
+143 : 	charL2 = charG1
+144 : 	fltL2 = fltG1
+145 : 	ptrL2 = ptrG1
+146 : 	fptrL2 = fptrG1
+147 : 	strL2 = strG1
+148 : 	t74 = "\nnumL2 = "
+149 : 	param t74
+150 : 	t75 = call printStr, 1
+151 : 	param numL2
+152 : 	t76 = call printInt, 1
+153 : 	t77 = ", charL2 (ascii value) = "
+154 : 	param t77
+155 : 	t78 = call printStr, 1
+156 : 	param charL2
+157 : 	t79 = call printInt, 1
+158 : 	t80 = ", ptrL2 (adress, truncated to first 32 bits only) = "
+159 : 	param t80
+160 : 	t81 = call printStr, 1
+161 : 	param ptrL2
+162 : 	t82 = call printInt, 1
+163 : 	t83 = ", strL2 = "
+164 : 	param t83
+165 : 	t84 = call printStr, 1
+166 : 	param strL2
+167 : 	t85 = call printStr, 1
+168 : 	if numL2 == numG1 goto 170
+169 : 	goto 182
+170 : 	if charL2 == charG1 goto 172
+171 : 	goto 182
+172 : 	if fltL2 == fltG1 goto 174
+173 : 	goto 182
+174 : 	if ptrL2 == ptrG1 goto 176
+175 : 	goto 182
+176 : 	if strL2 == strG1 goto 178
+177 : 	goto 182
+178 : 	t86 = "\nSUCCESS: Global variables assigned to local variables."
+179 : 	param t86
+180 : 	t87 = call printStr, 1
+181 : 	goto 185
+182 : 	t88 = "\nFAILURE: Global variables not assigned to local variables."
+183 : 	param t88
+184 : 	t89 = call printStr, 1
+185 : 	t90 = "\n"
+186 : 	param t90
+187 : 	t91 = call printStr, 1
+188 : 	t92 = "\nAssigning globals to globals: "
+189 : 	param t92
+190 : 	t93 = call printStr, 1
+191 : 	numG2 = numG1
+192 : 	charG2 = charG1
+193 : 	fltG2 = fltG1
+194 : 	ptrG2 = ptrG1
+195 : 	strG2 = strG1
+196 : 	t94 = "\nnumG2 = "
+197 : 	param t94
+198 : 	t95 = call printStr, 1
+199 : 	param numG2
+200 : 	t96 = call printInt, 1
+201 : 	t97 = ", charG2 (ascii value) = "
+202 : 	param t97
+203 : 	t98 = call printStr, 1
+204 : 	param charG2
+205 : 	t99 = call printInt, 1
+206 : 	t100 = ", ptrG2 (adress, truncated to first 32 bits only) = "
+207 : 	param t100
+208 : 	t101 = call printStr, 1
+209 : 	param ptrG2
+210 : 	t102 = call printInt, 1
+211 : 	t103 = ", strG2 = "
+212 : 	param t103
+213 : 	t104 = call printStr, 1
+214 : 	param strG2
+215 : 	t105 = call printStr, 1
+216 : 	if numG2 == numG1 goto 218
+217 : 	goto 230
+218 : 	if charG2 == charG1 goto 220
+219 : 	goto 230
+220 : 	if fltG2 == fltG1 goto 222
+221 : 	goto 230
+222 : 	if ptrG2 == ptrG1 goto 224
+223 : 	goto 230
+224 : 	if strG2 == strG1 goto 226
+225 : 	goto 230
+226 : 	t106 = "\nSUCCESS: Global variables assigned to global variables."
+227 : 	param t106
+228 : 	t107 = call printStr, 1
+229 : 	goto 233
+230 : 	t108 = "\nFAILURE: Global variables not assigned to global variables."
+231 : 	param t108
+232 : 	t109 = call printStr, 1
+233 : 	t110 = "\n\n"
+234 : 	param t110
+235 : 	t111 = call printStr, 1
+236 : 	t112 = 0
+237 : 	return t112
+238 : Function end: main

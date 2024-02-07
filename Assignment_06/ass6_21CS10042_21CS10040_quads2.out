@@ -1,0 +1,354 @@
+============================================================================================================================================
+Table Name: global		 Parent Table Name: None
+============================================================================================================================================
+Name                Type                                    Category            Initial Value       Offset              Size                Child               
+
+fillSeq             void                                    function                                0                   0                   fillSeq             
+main                int                                     function                                0                   4                   main                
+printFlt            int                                     function                                4                   4                   printFlt            
+printInt            int                                     function                                8                   4                   printInt            
+printStr            int                                     function                                12                  4                   printStr            
+readFlt             int                                     function                                16                  4                   readFlt             
+readInt             int                                     function                                20                  4                   readInt             
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+============================================================================================================================================
+Table Name: fillSeq		 Parent Table Name: global
+============================================================================================================================================
+Name                Type                                    Category            Initial Value       Offset              Size                Child               
+
+i                   int                                     local                                   0                   4                   NULL                
+n                   int                                     parameter                               4                   4                   NULL                
+seq                 ptr(int)                                parameter                               8                   8                   NULL                
+t0                  int                                     temporary           0                   16                  4                   NULL                
+t1                  int                                     temporary                               20                  4                   NULL                
+t10                 int                                     temporary                               24                  4                   NULL                
+t11                 int                                     temporary                               28                  4                   NULL                
+t12                 int                                     temporary                               32                  4                   NULL                
+t13                 int                                     temporary           2                   36                  4                   NULL                
+t14                 int                                     temporary                               40                  4                   NULL                
+t15                 int                                     temporary                               44                  4                   NULL                
+t16                 int                                     temporary                               48                  4                   NULL                
+t17                 int                                     temporary                               52                  4                   NULL                
+t2                  int                                     temporary           0                   56                  4                   NULL                
+t3                  int                                     temporary                               60                  4                   NULL                
+t4                  int                                     temporary           1                   64                  4                   NULL                
+t5                  int                                     temporary           1                   68                  4                   NULL                
+t6                  int                                     temporary                               72                  4                   NULL                
+t7                  int                                     temporary           2                   76                  4                   NULL                
+t8                  int                                     temporary                               80                  4                   NULL                
+t9                  int                                     temporary           1                   84                  4                   NULL                
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+============================================================================================================================================
+Table Name: main		 Parent Table Name: global
+============================================================================================================================================
+Name                Type                                    Category            Initial Value       Offset              Size                Child               
+
+harshith            array(5, char)                          local                                   0                   5                   NULL                
+i                   int                                     local                                   5                   4                   NULL                
+nihith              array(5, char)                          local                                   9                   5                   NULL                
+return              int                                     local                                   14                  4                   NULL                
+seq                 array(20, int)                          local                                   18                  80                  NULL                
+t18                 ptr(char)                               temporary           "\n#### TEST 2 (1-D Arrays) ####"98                  8                   NULL                
+t19                 int                                     temporary                               106                 4                   NULL                
+t20                 int                                     temporary           5                   110                 4                   NULL                
+t21                 int                                     temporary           0                   114                 4                   NULL                
+t22                 int                                     temporary                               118                 4                   NULL                
+t23                 char                                    temporary           'H'                 122                 1                   NULL                
+t24                 int                                     temporary           1                   123                 4                   NULL                
+t25                 int                                     temporary                               127                 4                   NULL                
+t26                 char                                    temporary           'a'                 131                 1                   NULL                
+t27                 int                                     temporary           2                   132                 4                   NULL                
+t28                 int                                     temporary                               136                 4                   NULL                
+t29                 char                                    temporary           'r'                 140                 1                   NULL                
+t30                 int                                     temporary           3                   141                 4                   NULL                
+t31                 int                                     temporary                               145                 4                   NULL                
+t32                 char                                    temporary           's'                 149                 1                   NULL                
+t33                 int                                     temporary           4                   150                 4                   NULL                
+t34                 int                                     temporary                               154                 4                   NULL                
+t35                 char                                    temporary           'h'                 158                 1                   NULL                
+t36                 int                                     temporary           5                   159                 4                   NULL                
+t37                 int                                     temporary                               163                 4                   NULL                
+t38                 char                                    temporary           'i'                 167                 1                   NULL                
+t39                 int                                     temporary           6                   168                 4                   NULL                
+t40                 int                                     temporary                               172                 4                   NULL                
+t41                 char                                    temporary           't'                 176                 1                   NULL                
+t42                 int                                     temporary           7                   177                 4                   NULL                
+t43                 int                                     temporary                               181                 4                   NULL                
+t44                 char                                    temporary           'h'                 185                 1                   NULL                
+t45                 ptr(char)                               temporary           "\nAscii values of Harshith: "186                 8                   NULL                
+t46                 int                                     temporary                               194                 4                   NULL                
+t47                 int                                     temporary           0                   198                 4                   NULL                
+t48                 int                                     temporary           5                   202                 4                   NULL                
+t49                 int                                     temporary                               206                 4                   NULL                
+t50                 int                                     temporary                               210                 4                   NULL                
+t51                 char                                    temporary                               214                 1                   NULL                
+t52                 int                                     temporary                               215                 4                   NULL                
+t53                 ptr(char)                               temporary           " "                 219                 8                   NULL                
+t54                 int                                     temporary                               227                 4                   NULL                
+t55                 int                                     temporary           5                   231                 4                   NULL                
+t56                 int                                     temporary           0                   235                 4                   NULL                
+t57                 int                                     temporary                               239                 4                   NULL                
+t58                 char                                    temporary           'N'                 243                 1                   NULL                
+t59                 int                                     temporary           1                   244                 4                   NULL                
+t60                 int                                     temporary                               248                 4                   NULL                
+t61                 char                                    temporary           'i'                 252                 1                   NULL                
+t62                 int                                     temporary           2                   253                 4                   NULL                
+t63                 int                                     temporary                               257                 4                   NULL                
+t64                 char                                    temporary           'h'                 261                 1                   NULL                
+t65                 int                                     temporary           3                   262                 4                   NULL                
+t66                 int                                     temporary                               266                 4                   NULL                
+t67                 char                                    temporary           'i'                 270                 1                   NULL                
+t68                 int                                     temporary           4                   271                 4                   NULL                
+t69                 int                                     temporary                               275                 4                   NULL                
+t70                 char                                    temporary           't'                 279                 1                   NULL                
+t71                 int                                     temporary           5                   280                 4                   NULL                
+t72                 int                                     temporary                               284                 4                   NULL                
+t73                 char                                    temporary           'h'                 288                 1                   NULL                
+t74                 ptr(char)                               temporary           "\nAscii values of Nihith: "289                 8                   NULL                
+t75                 int                                     temporary                               297                 4                   NULL                
+t76                 int                                     temporary           0                   301                 4                   NULL                
+t77                 int                                     temporary           5                   305                 4                   NULL                
+t78                 int                                     temporary                               309                 4                   NULL                
+t79                 int                                     temporary                               313                 4                   NULL                
+t80                 char                                    temporary                               317                 1                   NULL                
+t81                 int                                     temporary                               318                 4                   NULL                
+t82                 ptr(char)                               temporary           " "                 322                 8                   NULL                
+t83                 int                                     temporary                               330                 4                   NULL                
+t84                 int                                     temporary           20                  334                 4                   NULL                
+t85                 int                                     temporary           20                  338                 4                   NULL                
+t86                 void                                    temporary                               342                 0                   NULL                
+t87                 ptr(char)                               temporary           "\nDifference Series: "342                 8                   NULL                
+t88                 int                                     temporary                               350                 4                   NULL                
+t89                 int                                     temporary           0                   354                 4                   NULL                
+t90                 int                                     temporary           20                  358                 4                   NULL                
+t91                 int                                     temporary                               362                 4                   NULL                
+t92                 int                                     temporary                               366                 4                   NULL                
+t93                 int                                     temporary                               370                 4                   NULL                
+t94                 int                                     temporary                               374                 4                   NULL                
+t95                 ptr(char)                               temporary           " "                 378                 8                   NULL                
+t96                 int                                     temporary                               386                 4                   NULL                
+t97                 ptr(char)                               temporary           "\n\n"              390                 8                   NULL                
+t98                 int                                     temporary                               398                 4                   NULL                
+t99                 int                                     temporary           0                   402                 4                   NULL                
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+============================================================================================================================================
+Table Name: printFlt		 Parent Table Name: global
+============================================================================================================================================
+Name                Type                                    Category            Initial Value       Offset              Size                Child               
+
+f                   float                                   parameter                               0                   8                   NULL                
+return              int                                     local                                   8                   4                   NULL                
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+============================================================================================================================================
+Table Name: printInt		 Parent Table Name: global
+============================================================================================================================================
+Name                Type                                    Category            Initial Value       Offset              Size                Child               
+
+n                   int                                     parameter                               0                   4                   NULL                
+return              int                                     local                                   4                   4                   NULL                
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+============================================================================================================================================
+Table Name: printStr		 Parent Table Name: global
+============================================================================================================================================
+Name                Type                                    Category            Initial Value       Offset              Size                Child               
+
+return              int                                     local                                   0                   4                   NULL                
+s                   ptr(char)                               parameter                               4                   8                   NULL                
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+============================================================================================================================================
+Table Name: readFlt		 Parent Table Name: global
+============================================================================================================================================
+Name                Type                                    Category            Initial Value       Offset              Size                Child               
+
+eP                  ptr(float)                              parameter                               0                   8                   NULL                
+return              int                                     local                                   8                   4                   NULL                
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+============================================================================================================================================
+Table Name: readInt		 Parent Table Name: global
+============================================================================================================================================
+Name                Type                                    Category            Initial Value       Offset              Size                Child               
+
+eP                  ptr(int)                                parameter                               0                   8                   NULL                
+return              int                                     local                                   8                   4                   NULL                
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+1   : Function start: fillSeq
+2   : 	t0 = 0
+3   : 	i = t0
+4   : 	if i < n goto 9
+5   : 	goto 35
+6   : 	t1 = i
+7   : 	i = i + 1
+8   : 	goto 4
+9   : 	t2 = 0
+10  : 	if i == t2 goto 12
+11  : 	goto 16
+12  : 	t3 = i * 4
+13  : 	t4 = 1
+14  : 	seq[t3] = t4
+15  : 	goto 6
+16  : 	t5 = 1
+17  : 	if i == t5 goto 19
+18  : 	goto 23
+19  : 	t6 = i * 4
+20  : 	t7 = 2
+21  : 	seq[t6] = t7
+22  : 	goto 6
+23  : 	t8 = i * 4
+24  : 	t9 = 1
+25  : 	t10 = i - t9
+26  : 	t11 = t10 * 4
+27  : 	t12 = seq[t11]
+28  : 	t13 = 2
+29  : 	t14 = i - t13
+30  : 	t15 = t14 * 4
+31  : 	t16 = seq[t15]
+32  : 	t17 = t12 - t16
+33  : 	seq[t8] = t17
+34  : 	goto 6
+35  : Function end: fillSeq
+36  : Function start: main
+37  : 	t18 = "\n#### TEST 2 (1-D Arrays) ####"
+38  : 	param t18
+39  : 	t19 = call printStr, 1
+40  : 	t20 = 5
+41  : 	t21 = 0
+42  : 	t22 = t21 * 1
+43  : 	t23 = 'H'
+44  : 	harshith[t22] = t23
+45  : 	t24 = 1
+46  : 	t25 = t24 * 1
+47  : 	t26 = 'a'
+48  : 	harshith[t25] = t26
+49  : 	t27 = 2
+50  : 	t28 = t27 * 1
+51  : 	t29 = 'r'
+52  : 	harshith[t28] = t29
+53  : 	t30 = 3
+54  : 	t31 = t30 * 1
+55  : 	t32 = 's'
+56  : 	harshith[t31] = t32
+57  : 	t33 = 4
+58  : 	t34 = t33 * 1
+59  : 	t35 = 'h'
+60  : 	harshith[t34] = t35
+61  : 	t36 = 5
+62  : 	t37 = t36 * 1
+63  : 	t38 = 'i'
+64  : 	harshith[t37] = t38
+65  : 	t39 = 6
+66  : 	t40 = t39 * 1
+67  : 	t41 = 't'
+68  : 	harshith[t40] = t41
+69  : 	t42 = 7
+70  : 	t43 = t42 * 1
+71  : 	t44 = 'h'
+72  : 	harshith[t43] = t44
+73  : 	t45 = "\nAscii values of Harshith: "
+74  : 	param t45
+75  : 	t46 = call printStr, 1
+76  : 	t47 = 0
+77  : 	i = t47
+78  : 	t48 = 5
+79  : 	if i < t48 goto 84
+80  : 	goto 92
+81  : 	t49 = i
+82  : 	i = i + 1
+83  : 	goto 78
+84  : 	t50 = i * 1
+85  : 	t51 = harshith[t50]
+86  : 	param t51
+87  : 	t52 = call printInt, 1
+88  : 	t53 = " "
+89  : 	param t53
+90  : 	t54 = call printStr, 1
+91  : 	goto 81
+92  : 	t55 = 5
+93  : 	t56 = 0
+94  : 	t57 = t56 * 1
+95  : 	t58 = 'N'
+96  : 	nihith[t57] = t58
+97  : 	t59 = 1
+98  : 	t60 = t59 * 1
+99  : 	t61 = 'i'
+100 : 	nihith[t60] = t61
+101 : 	t62 = 2
+102 : 	t63 = t62 * 1
+103 : 	t64 = 'h'
+104 : 	nihith[t63] = t64
+105 : 	t65 = 3
+106 : 	t66 = t65 * 1
+107 : 	t67 = 'i'
+108 : 	nihith[t66] = t67
+109 : 	t68 = 4
+110 : 	t69 = t68 * 1
+111 : 	t70 = 't'
+112 : 	nihith[t69] = t70
+113 : 	t71 = 5
+114 : 	t72 = t71 * 1
+115 : 	t73 = 'h'
+116 : 	nihith[t72] = t73
+117 : 	t74 = "\nAscii values of Nihith: "
+118 : 	param t74
+119 : 	t75 = call printStr, 1
+120 : 	t76 = 0
+121 : 	i = t76
+122 : 	t77 = 5
+123 : 	if i < t77 goto 128
+124 : 	goto 136
+125 : 	t78 = i
+126 : 	i = i + 1
+127 : 	goto 122
+128 : 	t79 = i * 1
+129 : 	t80 = nihith[t79]
+130 : 	param t80
+131 : 	t81 = call printInt, 1
+132 : 	t82 = " "
+133 : 	param t82
+134 : 	t83 = call printStr, 1
+135 : 	goto 125
+136 : 	t84 = 20
+137 : 	param seq
+138 : 	t85 = 20
+139 : 	param t85
+140 : 	t86 = call fillSeq, 2
+141 : 	t87 = "\nDifference Series: "
+142 : 	param t87
+143 : 	t88 = call printStr, 1
+144 : 	t89 = 0
+145 : 	i = t89
+146 : 	t90 = 20
+147 : 	if i < t90 goto 152
+148 : 	goto 160
+149 : 	t91 = i
+150 : 	i = i + 1
+151 : 	goto 146
+152 : 	t92 = i * 4
+153 : 	t93 = seq[t92]
+154 : 	param t93
+155 : 	t94 = call printInt, 1
+156 : 	t95 = " "
+157 : 	param t95
+158 : 	t96 = call printStr, 1
+159 : 	goto 149
+160 : 	t97 = "\n\n"
+161 : 	param t97
+162 : 	t98 = call printStr, 1
+163 : 	t99 = 0
+164 : 	return t99
+165 : Function end: main

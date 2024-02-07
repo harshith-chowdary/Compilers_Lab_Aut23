@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "string": "cpp",
+        "iomanip": "cpp",
+        "system_error": "cpp",
+        "string_view": "c",
+        "tuple": "c",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "*.tcc": "cpp"
+    }
+}
